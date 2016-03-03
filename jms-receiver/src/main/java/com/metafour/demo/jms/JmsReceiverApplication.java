@@ -34,7 +34,7 @@ public class JmsReceiverApplication implements CommandLineRunner {
   @Override
   public void run(String... args) throws Exception {
     logger.info("Waiting a few seconds...");
-    Thread.sleep(20000);
+    Thread.sleep(200000);
     context.close();    
   }
   
